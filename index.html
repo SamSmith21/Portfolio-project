@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sam is a front-end developer based in London"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,19 +29,19 @@
   <body>
     <div class="container fixed-top">
       <nav class="d-flex justify-content-between bg-light">
-        <a href="/" class="d-none d-md-block">Sam Smith</a>
+        <a href="/" class="d-none d-md-block" title="Homepage">Sam Smith</a>
         <ul>
           <li class="active">
-            <a href="/"> Home </a>
+            <a href="/" title="Homepage"> Home </a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Sam">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Sam's Work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Sam">Contact</a>
           </li>
         </ul>
       </nav>
@@ -48,13 +52,17 @@
       <h2>Front-end developer from London, UK</h2>
       <br />
       <br />
-      <a href="#" class="btn btn-branding">Contact Page</a>
+      <a href="/contact.html" class="btn btn-branding">Contact Page</a>
     </div>
     <p class="text-center m-5 fw-bold">Project highlights below</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/landing-page.PNG" class="img-fluid" alt="" />
+          <img
+            src="images/landing-page.PNG"
+            class="img-fluid"
+            alt="Landing Page Picture"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -62,7 +70,11 @@
             <p class="text-muted">
               This was the very first project using basic HTML and CSS.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn More</a>
+            <a
+              href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/374/699/original/Project1-2.html?1623131889"
+              class="btn btn-branding-outline"
+              >Learn More</a
+            >
           </div>
         </div>
       </div>
@@ -84,7 +96,11 @@
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather-app.PNG" class="img-fluid" alt="" />
+          <img
+            src="images/weather-app.PNG"
+            class="img-fluid"
+            alt="Weather App"
+          />
         </div>
       </div>
       <footer>
@@ -94,7 +110,7 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact Me</a>
+            <a href="/contact.html" class="btn btn-branding">Contact Me</a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-3">
@@ -103,7 +119,9 @@
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-3">
-          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/itssam_smith/"
+            ><i class="fab fa-instagram"></i
+          ></a>
           <a href="https://github.com/SamSmith21"
             ><i class="fab fa-github"></i>
           </a>
@@ -113,6 +131,16 @@
             ><i class="fab fa-linkedin"></i>
           </a>
         </div>
+        <p class="text-center">
+          <small>
+            This project was coded by Sam Smith and is
+            <a
+              href="https://github.com/SamSmith21/Portfolio-project"
+              target="_blank"
+              >open-sourced</a
+            >
+          </small>
+        </p>
       </footer>
     </div>
   </body>
