@@ -13,6 +13,10 @@ h1 {
   font-size: 96px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 .content {
   padding: 100px 0px;
 }
@@ -60,13 +64,38 @@ p {
   padding: 120px 60px;
 }
 
-.work-text {
-  padding: 0px;
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 20px;
+  color: var(--branding-color);
+  padding: 10px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .contact-box {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 nav {
   padding: 20px 0px;
-  margin: 0px 30px;
+  margin: 0px 0px;
   line-height: 40px;
 }
 
