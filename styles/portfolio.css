@@ -1,5 +1,7 @@
 :root {
   --branding-color: blueviolet;
+  --heading-font-family: "Playfair Display", serif;
+  --second-font: "Poppins", sans-serif;
 }
 
 .hero {
@@ -9,12 +11,17 @@
 }
 
 h1 {
-  color: blueviolet;
   font-size: 96px;
+  font-family: var(--heading-font-family);
 }
 
-h4 {
+h2 {
+  font-family: var(--heading-font-family);
+}
+
+h3 {
   font-size: 48px;
+  font-family: var(--heading-font-family);
 }
 
 .content {
@@ -40,6 +47,11 @@ h4 {
 
 p {
   font-size: 24px;
+  font-family: var(--second-font);
+}
+
+a {
+  font-family: var(--second-font);
 }
 
 .btn-branding {
@@ -62,6 +74,10 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.skills-list {
+  font-family: var(--second-font);
 }
 
 footer .email-link {
@@ -130,10 +146,14 @@ nav li.active a {
     padding: 0;
   }
 
+  .page-top {
+    padding: 100px 20px;
+  }
+
   h1 {
     font-size: 44px;
   }
   h2 {
-    font-size: 44px;
+    font-size: 40px;
   }
 }
